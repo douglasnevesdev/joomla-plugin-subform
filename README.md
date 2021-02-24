@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-  :rocket: Projeto Plugin SubForms
+  :rocket: Projeto: Plugin SubForm
 </h2>
 
 <p align="center">
@@ -13,12 +13,12 @@
 </p>
 
 <p align="center">
-  <img alt="Dogs" src="github/dog.png" width="80%">
+  <img alt="subform" src="github/subform.jpg" width="80%">
 </p>
 
 ## :computer: Projeto
 
-<strong>Projeto Plugin SubForm</strong> é um projeto que tem como objetivo fornecer ao joomla a possibilidade de criar um campo (field) customizado que referencia um arquivo <strong>.xml</strong>
+<strong>O Plugin SubForm</strong> é um projeto que tem como objetivo fornecer ao joomla a possibilidade de criar um campo (field) customizado que referencia um arquivo <strong>.xml</strong>
 
 É possivel referenciar um arquivo .xml dentro de qualquer diretorio no joomla, aumentando as possibilidades de personalização e utilização de campos custom nativos do joomla.
 
