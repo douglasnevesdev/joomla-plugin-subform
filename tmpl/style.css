@@ -1,0 +1,26 @@
+
+
+.responsive-container {
+	height: 0;
+	max-width: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.aspectratio16-9 {
+	padding-bottom: 56.25%;
+}
+
+.aspectratio4-3 {
+	padding-bottom: 75%;
+}
+
+.responsive-container iframe {
+	height: 100%;
+	left: 0;
+	max-width: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset name="fieldparams">
+
+			
+			<field
+				name="fieldsubform"
+				type="text"
+				required="true"
+				label="Subform"
+				description="Subform"
+			/>
+
+			<field
+				name="fieldlayout"
+				type="list"
+				label="Layout"
+				required="true"
+				default="joomla.form.field.subform.repeatable"
+				description="Layout"
+				>
+				<option value="joomla.form.field.subform.repeatable">Repetir</option>
+				<option value="joomla.form.field.subform.repeatable-table">Repetir na Tabela</option>
+			</field>
+
+			<field 
+				name="fieldmultiple" 
+				type="radio"
+				default="false"
+				required="true"
+				class="btn-group btn-group-yesno"
+				label="Multiplo" 
+				description="Multiplo">
+					<option value="false">JNO</option>
+					<option value="true">JYES</option>
+			</field>
+
+			<field
+				name="fieldsubform"
+				type="text"
+				label="Subform"
+				description="Subform"
+				required="true"
+			/>
+
+			<field
+				name="fieldmin"
+				type="number"
+				label="Min"
+				description="Min"
+				default="0"
+				required="true"
+			/>
+
+			<field
+				name="fieldmax"
+				type="number"
+				label="Max"
+				description="Max"
+				default="1000"
+				required="true"
+			/>
+
+			
+
+    </fieldset>            
+</fields>
+</form>
