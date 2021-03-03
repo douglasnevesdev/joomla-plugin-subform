@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset>
+        <field 
+            name="titulo" 
+            type="text" 
+            label="Pergunta" 
+            description="Pergunta">
+        </field>
+
+        <field 
+            name="texto"
+            type="text" 
+            label="Resposta" 
+            description="Resposta" 
+            height="200" 
+            filter="safehtml" 
+        />
+    </fieldset>
+
+  
+
+
+</form>
+

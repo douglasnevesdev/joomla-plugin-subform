@@ -3,25 +3,26 @@
 	<fields name="fieldparams">
 		<fieldset name="fieldparams">
 
-			
 			<field
 				name="fieldsubform"
 				type="text"
 				required="true"
-				label="Subform"
-				description="Subform"
+				label="PLG_FIELDS_SUBFORM_LABEL"
+				description="PLG_FIELDS_SUBFORM_DESCRIPTION"
+				default="plugins/fields/subforms/elements/teste.xml"
+				hint="plugins/fields/subforms/elements/teste.xmls"
 			/>
 
 			<field
 				name="fieldlayout"
 				type="list"
-				label="Layout"
+				label="PLG_FIELDS_SUBFORM_LAYOUT_LABEL"
 				required="true"
 				default="joomla.form.field.subform.repeatable"
-				description="Layout"
+				description="PLG_FIELDS_SUBFORM_LAYOUT_DESCRIPTION"
 				>
-				<option value="joomla.form.field.subform.repeatable">Repetir</option>
-				<option value="joomla.form.field.subform.repeatable-table">Repetir na Tabela</option>
+				<option value="joomla.form.field.subform.repeatable">PLG_FIELDS_SUBFORM_LAYOUT_REPEATABLE_OPTION</option>
+				<option value="joomla.form.field.subform.repeatable-table">PLG_FIELDS_SUBFORM_LAYOUT_REPEATABLE_OPTION_TABLE</option>
 			</field>
 
 			<field 
@@ -30,25 +31,18 @@
 				default="false"
 				required="true"
 				class="btn-group btn-group-yesno"
-				label="Multiplo" 
-				description="Multiplo">
+				label="PLG_FIELDS_SUBFORM_MULTIPLE_LABEL" 
+				description="PLG_FIELDS_SUBFORM_MULTIPLE_DESCRIPTION">
 					<option value="false">JNO</option>
 					<option value="true">JYES</option>
 			</field>
 
-			<field
-				name="fieldsubform"
-				type="text"
-				label="Subform"
-				description="Subform"
-				required="true"
-			/>
 
 			<field
 				name="fieldmin"
 				type="number"
-				label="Min"
-				description="Min"
+				label="PLG_FIELDS_SUBFORM_MIN_LABEL"
+				description="PLG_FIELDS_SUBFORM_MIN_DESCRIPTION"
 				default="0"
 				required="true"
 			/>
@@ -56,14 +50,13 @@
 			<field
 				name="fieldmax"
 				type="number"
-				label="Max"
-				description="Max"
+				label="PLG_FIELDS_SUBFORM_MAX_LABEL"
+				description="PLG_FIELDS_SUBFORM_MAX_DESCRIPTION"
 				default="1000"
 				required="true"
 			/>
 
 			
-
     </fieldset>            
 </fields>
 </form>

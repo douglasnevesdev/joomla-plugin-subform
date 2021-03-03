@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <extension type="plugin" version="3.7.0" group="fields" method="upgrade">
-	<name>Subforms</name>
+	<name>PLG_FIELDS_SUBFORM</name>
 	<author>Douglas Neves</author>
-	<creationDate>23 Fev 2021 </creationDate>
+	<creationDate>02 Abr 2021 </creationDate>
 	<copyright>Copyright (C) 2021 douglasneves.net. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>d88.neves@gmail.com</authorEmail>
 	<authorUrl>https://www.douglasneves.net</authorUrl>
 	<version>1.1.1</version>
-	<description>Subforms</description>
+	<description>PLG_FIELDS_SUBFORM_XML_DESCRIPTION</description>
 
 	<files>
 		<filename plugin="subforms">subforms.php</filename>
@@ -16,7 +16,16 @@
 		<folder>elements</folder>
 		<folder>params</folder>
 		<folder>tmpl</folder>
+		<folder>language</folder>
 	</files>
+	
+	<!-- Language files -->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_fields_subforms.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_fields_subforms.sys.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.plg_fields_subforms.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.plg_fields_subforms.sys.ini</language>
+	</languages>
 	
 	<scriptfile>script.php</scriptfile>
 

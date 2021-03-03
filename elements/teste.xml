@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset>
+        <field 
+            name="titulo" 
+            type="text" 
+            label="Pergunta" 
+            description="Pergunta">
+        </field>
+
+        <field 
+            name="texto"
+            type="editor" 
+            label="Resposta" 
+            description="Resposta" 
+            height="200" 
+            filter="safehtml" 
+        />
+
+
+        <field 
+            name="fieldsubform" 
+            type="subform" 
+            formsource="/plugins/fields/subforms/elements/faq.xml" 
+            max="20" 
+            multiple="true" 
+            layout="joomla.form.field.subform.repeatable-table" 
+            label="value" 
+            description="Checkbox Items" 
+        />
+
+    </fieldset>
+    
+
+
+</form>
+
