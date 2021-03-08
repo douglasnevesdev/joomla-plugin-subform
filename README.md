@@ -45,11 +45,12 @@
 - Compacte os arquivos
 - Na parte administrativa do joomla, acesse Extensões > Gerenciar > Instalar
 - Arraste o arquivo compactado .zip e aguarde o joomla realizar a instalação.
-- Quando concluir, crie um campo custom, clique em Conteúdo > Campos.
+- Quando concluir, crie um campo personalizado(artigos), clique em Conteúdo > Campos.
 - Clique em Novo, no tipo de campo escolha SubForms.
 - Alguns campos serão exibidos, preencha o campo Subform com o caminho do .xml, exemplo: plugins/fields/subforms/elements/exemplo.xml
 - Defina o layout do subform.
 - Defina se podera existir um ou N itens.
 - Defina a quantidade minina e maxima.
 - Defina o grupo de campos caso tenha e a categoria.
-- Salve o campo criado e você podera utilizar em seu artigo.
+- Salve o campo criado e você podera utilizar em seu artigo
+- De preferencia, crie um layout para utilizar no artigo.
