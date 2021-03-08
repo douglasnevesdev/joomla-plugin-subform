@@ -15,7 +15,7 @@
 </p>
 
 <div align="center">
-      <a href="https://www.youtube.com/watch?v=NPFUgbDKaSo">
+      <a target="_blank" href="https://www.youtube.com/watch?v=NPFUgbDKaSo">
      <img 
       src="https://i.imgur.com/JNZDp4W.png" 
       alt="Subform" 
