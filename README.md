@@ -39,8 +39,6 @@
 
 ## :information_source: Como usar ?
 
-### Front-End ReactJS
-
 - Instale o joomla (versão 3.9.24 + )
 - Compacte os arquivos
 - Na parte administrativa do joomla, acesse Extensões > Gerenciar > Instalar
